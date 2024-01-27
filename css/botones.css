@@ -1,0 +1,75 @@
+/*boton contactame*/
+.boton-contactame{
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(47, 47, 47);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    color: #fdfdfd;
+    font-size: 20px;
+    border: none;
+}
+
+.boton-contactame:hover{
+    transition: 0.2s ease-out;
+    background-color: rgb(35, 35, 35);
+    cursor: pointer;
+}
+
+.boton-contactame:not(:hover){
+    background-color: rgb(47, 47, 47);
+    transition: 0.2s ease-out;
+}
+
+/*boton cv*/
+.boton-cv{
+    padding: 20px 40px 20px 40px;
+    background-color: #D9D9D9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+    font-size: 20px;
+    color: #2A2A2A;
+    border: none;
+}
+
+.boton-cv:hover{
+    background-color: #CCCCCC;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+.boton-cv:not(:hover){
+    background-color: #D9D9D9;
+    transition: 0.2s ease-out;
+}
+
+
+/*boton ul*/
+.boton-ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    cursor: pointer;
+    font-weight: 500;
+    width: auto;
+    font-size: 22px;
+    color:#fdfdfd ;
+}
+
+.boton-ul:hover{
+    background-color: #fdfdfd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    transition: 0.3s ease-out;
+    color:#2a2a2a ;
+}
+
+.boton-ul:not(:hover){
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: 0.3s ease-out;
+}
+
+.boton-focus{
+    color: #a1a1a1;
+}

@@ -1,0 +1,41 @@
+
+.contenedor-imagenes{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.contenedor-imagenes div img{
+    transition: ease 0.1s;
+}
+.contenedor-imagenes div img:hover{
+    width: 210px;
+    filter: blur(4px);
+}
+
+.html{
+    width: 200px;
+}
+.css{
+    width: 205px;
+}
+.js{
+    margin-top: 20px;
+    width: 150px;
+}
+.php{
+    padding-top: 15px;
+    margin-left: 20px;
+    width: 200px;
+}
+.tailwind{
+    padding-top: 60px;
+    width: 180px;
+}
+.laravel{
+    width: 170px;
+    margin-left: 30px;
+}
+.c{
+    width: 200px;
+}

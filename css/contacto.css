@@ -1,0 +1,19 @@
+.contenedor-contacto{
+    display: flex;
+    gap: 50px;
+}
+
+.contenedor-contacto-imagen img{
+    width: 100px;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.contenedor-contacto-imagen img:hover{
+    width: 120px;
+}
+
+.contenedor-contacto-parrafo{
+    font-size: 30px;
+    padding-bottom: 30px;
+}

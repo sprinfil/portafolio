@@ -1,0 +1,53 @@
+.contenedor-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.proyecto img {
+    width: 450px;
+}
+
+.proyecto {
+    padding: 10px 10px 10px 10px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    max-width: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.fondo:hover {
+    transition: ease 0.5s;
+    cursor: pointer;
+    filter: blur(4px);
+}
+
+.fondo:not(:hover) {
+    transition: ease 0.5s;
+}
+
+.proyecto-descripcion {
+    font-size: 20px;
+}
+
+.visitar {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: ease 0.6s;
+    font-size: 25px;
+    color: black;
+}
+
+.proyecto:hover .visitar {
+    opacity: 1;
+}
+
+a{
+   text-decoration: none;
+    color: black;
+}

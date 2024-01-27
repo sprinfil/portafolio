@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/distribucion.css">
+  <link rel="stylesheet" href="../css/botones.css">
+  <link rel="stylesheet" href="../css/sobre-mi.css">
+  <link rel="stylesheet" href="../css/animaciones.css">
+  <link rel="stylesheet" href="../css/habilidades.css">
+  <link rel="stylesheet" href="../css/proyectos.css">
+  <link rel="stylesheet" href="../css/contacto.css">
+  <script src="../js/jquery.js"></script>
+  <script src="../js/menu.js"></script>
+  <script src="../js/animacionEscritura.js"></script>
+</head>
+
+<body>
+  <div class="contenedor-principal">
+    <nav class="nav">
+      <div class="div-foto">
+        <img src="../img/f93dd3c1-f7ce-41d3-9df2asdf-15f8e9438620.jpg" alt="" class="foto">
+      </div>
+
+      <ul>
+        <li id="sobre-mi-btn" class="boton-ul boton-focus" onclick="cambiarVentana('#sobre-mi')">SOBRE MI</li>
+        <LI id="habilidades-btn" class="boton-ul" onclick="cambiarVentana('#habilidades')">HABILIDADES</LI>
+        <LI id="proyectos-btn" class="boton-ul" onclick="cambiarVentana('#proyectos')">PROYECTOS</LI>
+        <LI id="contacto-btn" class="boton-ul" onclick="cambiarVentana('#contacto')">CONTACTO</LI>
+      </ul>
+    </nav>
+
+    <!--SOBRE MI-->
+    <section>
+      <div class="contenedor" id="sobre-mi">
+        <div class="parte-superior">
+          <div class="contenedor-hola">
+            <p id="hola"></p>
+          </div>
+          <div class="icono-rocket ocultar">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" />
+            </svg>
+          </div>
+        </div>
+
+        <p class="texto-resumen">
+          Recién egresado de Ingeniería en Sistemas Computacionales, Soy una persona comprometida dispuesta a dar lo
+          mejor de si,
+          actualmente estoy buscando un trabajo de desarrollo web a tiempo
+          completo para poder aplicar todo mi conociminento, me gusta trabajar en equipo, siempre estoy dispuesto a
+          aprender cosas nuevas y resolver problemas.</p>
+          <!--
+        <button class="boton-contactame ocultar">
+          <p>CONTACTAME</p>
+        </button>
+          -->
+
+        <a href="../archivos/Jeremy_Ojeda_cv.pdf">
+          <button class="boton-contactame ocultar">
+            <p>DESCARGAR CV</p>
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <!--HABILIDADES-->
+    <div class="contenedor ocultar" id="habilidades">
+      HABILIDADES
+      <div class="contenedor-imagenes">
+        <div>
+          <img src="../img/html-5.png" alt="" class="html">
+        </div>
+        <div>
+          <img src="../img/css-3.png" alt="" class="css">
+        </div>
+        <div class="js">
+          <img src="../img/js.png" alt="" class="js">
+        </div>
+        <div>
+          <img src="../img/php.png" alt="" class="php">
+        </div>
+        <div>
+          <img src="../img/tawilwind.png" alt="" class="tailwind">
+        </div>
+        <div>
+          <img src="../img/laravel.png" alt="" class="laravel">
+        </div>
+        <div>
+          <img src="../img/c.png" alt="" class="c">
+        </div>
+      </div>
+    </div>
+
+    <!--PROYECTOS-->
+    <div class="contenedor ocultar" id="proyectos">
+      PROYECTOS
+      <div class="contenedor-proyectos">
+
+        <div class="proyecto">
+          <div class="fondo">
+            <img src="../img/clinica.png" alt="">
+            <div class="proyecto-descripcion">
+              Sistema de control para clinicas odontologas, permite llevar control de pacientes, expedientes, citas,
+              cortes de caja, etc. (actualmente en desarollo).
+            </div>
+          </div>
+          <div class="visitar">
+            <p>Ver Demo</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <div class="fondo">
+            <img src="../img/avt.png" alt="">
+            <div class="proyecto-descripcion">
+              Sistema para venta de bienes y racies, puede dar de alta y almacenar documentacion de personas, terrenos,
+              lotes y ventas (actualmente en desarollo).
+            </div>
+          </div>
+          <div class="visitar">
+            <p>Ver Demo</p>
+          </div>
+        </div>
+
+
+        <div class="proyecto">
+          <a
+            href="https://choyeros.000webhostapp.com/?fbclid=IwAR0vWcHTHw7Z6jvbZrgFkEgbPsag29avvkfQENDs9mNnByMOBzx5GF4bALo">
+            <div class="fondo">
+              <img src="../img/choyeros.png" alt="">
+              <div class="proyecto-descripcion">
+                Página de presentación para Choyeros Build
+              </div>
+            </div>
+            <div class="visitar">
+              <p>Visitar pagina</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="proyecto">
+          <div class="fondo">
+            <img src="../img/siia.png" alt="">
+            <div class="proyecto-descripcion">
+              Participe en el desarrollo del Sistema Integral de Infomracion Academica del Instituto Tecolongico de la
+              Paz como Residencia Profesional.
+            </div>
+          </div>
+          <div class="visitar">
+            <p>No disponible</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--CONTACTO-->
+    <div class="contenedor ocultar" id="contacto">
+      <p>CONTACTO</p>
+      <div class="contenedor-contacto-parrafo">
+        <p>Jeremy.Ojeda@hotmail.com</p>
+        <p>6241294731</p>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 40px;">
+        <a href="https://github.com/sprinfil">
+          <div class="contenedor-contacto-imagen">
+            <img src="../img/github.png" alt="">
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/jeremy-ojeda-ceseña-974b85195/">
+          <div class="contenedor-contacto-imagen">
+            <img src="../img/linkedin.png" alt="">
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+    <!--FIN-->
+
+  </div>
+
+</body>
+
+</html>
