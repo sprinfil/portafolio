@@ -39,3 +39,40 @@
 .c{
     width: 200px;
 }
+
+@media screen and (max-width: 1300px) {
+    #habilidades{
+        font-size: 40px;
+    }
+
+    .html{
+        width: 100px;
+    }
+
+    .css{
+        width: 102px;
+    }
+    .js{
+        margin-top: 20px;
+        width: 75px;
+    }
+    .php{
+        padding-top: 30px;
+        margin-left: 10px;
+        width: 100px;
+    }
+    .tailwind{
+        padding-top: 30px;
+        width: 90px;
+    }
+    .laravel{
+        width: 85px;
+        margin-left: 15px;
+    }
+    .c{
+        width: 100px;
+    }
+    .contenedor-imagenes{
+        padding: 0px 20px 0px 20px;
+    }
+}

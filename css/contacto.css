@@ -17,3 +17,12 @@
     font-size: 30px;
     padding-bottom: 30px;
 }
+@media screen and (max-width: 1300px) {
+    #contacto{
+        font-size: 40px;
+    }
+    .contenedor-contacto-parrafo{
+        font-size: 30px;
+        font-size: 20px;
+    }
+}

@@ -1,27 +1,52 @@
-
-.parte-superior{
+.parte-superior {
     display: flex;
 }
-.icono-rocket{
+
+.icono-rocket {
     display: flex;
     align-items: end;
     width: 90px;
-    margin-left: 50px;
+    margin-left: 10px;
     padding-bottom: 30px;
     animation: moveUpDown 12s ease infinite;
 }
 
-.texto-resumen{
+.texto-resumen {
     margin-top: 40px;
     font-size: 25px;
 }
-.contenedor-hola{
+
+.contenedor-hola {
     height: 300px;
 }
 
-.patron{
+.patron {
     background-color: #ffffff;
     opacity: 0.1;
     background: radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #ffffff 20%, #ffffff 80%, transparent 80%, transparent) 15px 15px, linear-gradient(#000000 1.2000000000000002px, transparent 1.2000000000000002px) 0 -0.6000000000000001px, linear-gradient(90deg, #000000 1.2000000000000002px, #ffffff 1.2000000000000002px) -0.6000000000000001px 0;
     background-size: 30px 30px, 30px 30px, 15px 15px, 15px 15px;
+}
+
+@media screen and (max-width: 1300px) {
+    #hola {
+        font-size: 90px;
+    }
+
+    .texto-resumen {
+        font-size: 20px;
+        width: 97%;
+    }
+
+    .parte-superior {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #hola {
+        font-size: 45px;
+    }
 }

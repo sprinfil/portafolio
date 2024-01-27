@@ -15,7 +15,6 @@ $(document).ready(function() {
         $('.boton-cv').addClass('fadeIn');
         $('.icono-rocket').removeClass('ocultar');
         $('.icono-rocket').addClass('moveUpDown');
-        icono-rocket
         clearInterval(intervalo); // Detener el intervalo cuando se completa el texto
       }
     }, 50); // Ajusta la velocidad según tus preferencias
